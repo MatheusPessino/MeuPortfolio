@@ -9,6 +9,11 @@ import { SobreMimComponent } from './sobre-mim/sobre-mim.component';
 const routes: Routes = [
   {
     path: '',
+    pathMatch: 'full',
+    redirectTo: 'inicio'
+  },
+  {
+    path: 'inicio',
     component: InicioComponent
   },
   {
