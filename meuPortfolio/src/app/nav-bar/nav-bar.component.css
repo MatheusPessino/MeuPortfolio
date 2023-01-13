@@ -1,0 +1,13 @@
+nav{
+    height: 8%;
+}
+
+ul{
+    width: 40%;
+    margin: auto;
+}
+
+#container ul{
+    display: flex;
+    justify-content: space-between;
+}
